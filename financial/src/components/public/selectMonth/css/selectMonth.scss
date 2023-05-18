@@ -1,0 +1,24 @@
+.selectMonth{
+  #beforeMonth{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    background-color: #007aff;
+    top: 45%;
+    right: 2%;
+    opacity: 0.7;
+    padding: 5px;
+    color: #ffffff;
+  }
+  #afterMonth{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    background-color: #007aff;
+    top: 55%;
+    right: 2%;
+    opacity: 0.7;
+    padding: 5px;
+    color: #ffffff;
+  }
+}

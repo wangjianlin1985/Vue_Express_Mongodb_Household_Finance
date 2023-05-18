@@ -1,0 +1,77 @@
+.selectCategory {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000; }
+  .selectCategory .categoryDialog {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0px; }
+    .selectCategory .categoryDialog .selectCategory-header {
+      width: 100%;
+      height: 40px;
+      background-color: #6495ED;
+      padding-top: 5px;
+      color: #ffffff; }
+      .selectCategory .categoryDialog .selectCategory-header .close {
+        float: right;
+        margin-right: 5%; }
+    .selectCategory .categoryDialog .selectCategory-content .selectCategory-option .swiper-container {
+      width: 35%;
+      height: 170px;
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 5%; }
+      .selectCategory .categoryDialog .selectCategory-content .selectCategory-option .swiper-container .swiper-slide {
+        font-size: 16px;
+        color: #e2e2e2; }
+        .selectCategory .categoryDialog .selectCategory-content .selectCategory-option .swiper-container .swiper-slide .hr {
+          width: 100%;
+          height: 1px;
+          background-color: #e2e2e2; }
+      .selectCategory .categoryDialog .selectCategory-content .selectCategory-option .swiper-container .swiper-slide-active {
+        color: #6495ED; }
+        .selectCategory .categoryDialog .selectCategory-content .selectCategory-option .swiper-container .swiper-slide-active .hr {
+          background-color: #6495ED;
+          height: 3px; }
+      .selectCategory .categoryDialog .selectCategory-content .selectCategory-option .swiper-container .swiper-slide-next, .selectCategory .categoryDialog .selectCategory-content .selectCategory-option .swiper-container .swiper-slide-prev {
+        color: #000000; }
+        .selectCategory .categoryDialog .selectCategory-content .selectCategory-option .swiper-container .swiper-slide-next .hr, .selectCategory .categoryDialog .selectCategory-content .selectCategory-option .swiper-container .swiper-slide-prev .hr {
+          background-color: #000000; }
+    .selectCategory .categoryDialog .selectCategory-content .selectCategory-option #category .swiper-slide .hr {
+      margin-top: 8px; }
+    .selectCategory .categoryDialog .selectCategory-content .selectCategory-option #category_detail {
+      width: 45%;
+      margin-right: 0; }
+      .selectCategory .categoryDialog .selectCategory-content .selectCategory-option #category_detail .swiper-slide {
+        text-align: left; }
+        .selectCategory .categoryDialog .selectCategory-content .selectCategory-option #category_detail .swiper-slide i {
+          font-size: 28px;
+          position: absolute; }
+        .selectCategory .categoryDialog .selectCategory-content .selectCategory-option #category_detail .swiper-slide span {
+          margin-left: 30%; }
+        .selectCategory .categoryDialog .selectCategory-content .selectCategory-option #category_detail .swiper-slide .hr {
+          margin-top: 8px; }
+    .selectCategory .categoryDialog .selectCategory-content .selectCategory-footer {
+      width: 100%;
+      height: 45px;
+      border-top: 1px solid #000000;
+      box-shadow: 5px 0 10px #000000;
+      background-color: #eeeeee; }
+      .selectCategory .categoryDialog .selectCategory-content .selectCategory-footer .cancel {
+        width: 45%;
+        height: 45px;
+        display: inline-block;
+        border-right: 1px solid #000000;
+        color: #6495ED; }
+      .selectCategory .categoryDialog .selectCategory-content .selectCategory-footer .confirm {
+        width: 45%;
+        height: 45px;
+        display: inline-block;
+        color: #6495ED; }
+
+/*# sourceMappingURL=dialog-selectCategory2.css.map */

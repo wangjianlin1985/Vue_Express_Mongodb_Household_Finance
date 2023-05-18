@@ -1,0 +1,104 @@
+.assetDetail {
+  top: 50px;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden; }
+  .assetDetail .assetDetail-header {
+    width: 100%;
+    height: auto;
+    background-color: #B0C4DE;
+    padding: 10px 0 2px 3%;
+    text-align: left; }
+    .assetDetail .assetDetail-header i {
+      font-size: 30px; }
+    .assetDetail .assetDetail-header .assetDetail-title {
+      font-size: 20px;
+      margin-left: 5%;
+      color: #ffffff; }
+    .assetDetail .assetDetail-header .assetDetail-money {
+      color: #ffffff;
+      margin: 0 0 0 0; }
+    .assetDetail .assetDetail-header .assetDetail-notice {
+      font-size: 12px;
+      margin: 0;
+      color: #ffffff; }
+    .assetDetail .assetDetail-header .assetDetail-month {
+      width: 100%;
+      height: auto;
+      color: #ffffff; }
+      .assetDetail .assetDetail-header .assetDetail-month .assetDetail-spend, .assetDetail .assetDetail-header .assetDetail-month .assetDetail-income, .assetDetail .assetDetail-header .assetDetail-month .assetDetail-leave {
+        margin: 0;
+        display: inline-block; }
+        .assetDetail .assetDetail-header .assetDetail-month .assetDetail-spend p, .assetDetail .assetDetail-header .assetDetail-month .assetDetail-income p, .assetDetail .assetDetail-header .assetDetail-month .assetDetail-leave p {
+          font-size: 12px;
+          margin: 0; }
+      .assetDetail .assetDetail-header .assetDetail-month .assetDetail-income, .assetDetail .assetDetail-header .assetDetail-month .assetDetail-leave {
+        margin-left: 5%; }
+      .assetDetail .assetDetail-header .assetDetail-month .assetDetail-date {
+        margin: 0; }
+  .assetDetail .assetDetail-other {
+    width: 100%;
+    height: auto; }
+    .assetDetail .assetDetail-other #assetDetail-spend, .assetDetail .assetDetail-other #assetDetail-income {
+      width: 40%;
+      height: 25px;
+      display: inline-block; }
+    .assetDetail .assetDetail-other .assetDetail-active {
+      border-bottom: 2px solid #B0C4DE;
+      color: #B0C4DE; }
+  .assetDetail .assetDetail-list {
+    width: 100%;
+    height: auto;
+    background-color: #eeeeee;
+    padding: 10px 0 20px 0; }
+    .assetDetail .assetDetail-list ul {
+      list-style: none;
+      background-color: #ffffff;
+      margin: 0;
+      padding-left: 0;
+      width: 100%; }
+      .assetDetail .assetDetail-list ul li {
+        width: 100%;
+        height: auto;
+        border-bottom: 2px solid #eeeeee;
+        padding: 5px;
+        text-align: left; }
+        .assetDetail .assetDetail-list ul li .iconfont {
+          width: 40px;
+          height: 35px;
+          text-align: center;
+          font-size: 20px;
+          background-color: #FF6666;
+          color: #ffffff;
+          border-radius: 50%;
+          padding-top: 5px;
+          display: inline-block; }
+        .assetDetail .assetDetail-list ul li .assetDetail-list-title {
+          width: 50%;
+          margin: 0;
+          display: inline-block;
+          vertical-align: top; }
+          .assetDetail .assetDetail-list ul li .assetDetail-list-title p, .assetDetail .assetDetail-list ul li .assetDetail-list-title small {
+            margin: 0; }
+        .assetDetail .assetDetail-list ul li .assetDetail-list-money {
+          width: 20%;
+          display: inline-block;
+          vertical-align: top; }
+      .assetDetail .assetDetail-list ul .spendList-end {
+        width: 100%;
+        height: auto;
+        background-color: #eeeeee;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 15px; }
+      .assetDetail .assetDetail-list ul .spendList-empty {
+        width: 100%;
+        height: 100px;
+        background-color: #ffffff;
+        font-size: 15px;
+        color: #2e2e2e;
+        text-align: center; }
+
+/*# sourceMappingURL=assetDetail.css.map */

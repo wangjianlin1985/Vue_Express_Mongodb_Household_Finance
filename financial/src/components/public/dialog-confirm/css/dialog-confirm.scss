@@ -1,0 +1,41 @@
+.dialog-confirm{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1000;
+  top: 0;
+  .dialog-confirm-content{
+    width: 70%;
+    height: auto;
+    background-color: #ffffff;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    border-radius: 10%;
+    .dialog-confirm-header{
+      width: 100%;
+      height: 25px;
+      border-bottom: 3px solid dodgerblue;
+      padding-top: 5px;
+    }
+    .dialog-confirm-center{
+      width: 100%;
+      height: 60px;
+    }
+    .dialog-confirm-bottom{
+      width: 100%;
+      height: 35px;
+      border-top: 3px solid #e2e2e2;
+      #cancel,#confirm{
+        display: inline-block;
+        width: 45%;
+        height: 30px;
+        padding-top: 5px;
+      }
+      #cancel{
+        border-right: 3px solid #e2e2e2;
+      }
+    }
+  }
+}
